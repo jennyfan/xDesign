@@ -40,9 +40,10 @@ header {
   margin: 8rem auto 6rem;
 }
 section {
-    padding: 3rem auto;
-    min-height: 100vh;
-    opacity: 0;
+  margin: 3rem auto;
+  padding-top: 6rem;
+  min-height: 80vh;
+  opacity: 0;
 }
 
 /* SECTION */
@@ -60,7 +61,7 @@ img.grey:hover {
   transition: 0.5s;
 }
 footer {
-  padding: 3rem auto;
+  margin: 1rem auto 2rem;
 }
 
 
@@ -113,16 +114,7 @@ p, li {
 
 
 a:link {
-  color: #000;
-  text-decoration: none;
-  transition: background-color 0.5s ease;
-}
-a:visited {
-  color: #FFE27C;
-}
-a:active, a:focus, a:hover {
-  color: #FFE27C;
-  text-decoration: underline;
+  transition: 0.5s ease;
 }
 input {
     background-color: #242424;
@@ -145,6 +137,7 @@ input {
   line-height: 24px;
   font-weight: 700;
   border-bottom: 5px solid #FFE27C;
+  color: #000;
 }
 .navbar li a:hover {
   /* background-color: #FFE27C; */
@@ -159,9 +152,6 @@ input {
 /* Navbar */
 .navbar {
   padding: 0.5rem 1rem;
-}
-.navbar-bg {
-  /* background-color: #181422; */
 }
 .navbar-toggler {
   margin: 0;
@@ -184,9 +174,6 @@ input {
 
 
 @media screen and (max-width: 575px) {
-  section {
-    padding: 2em 1em;
-  }
   .navbar {
       padding: 1em;
   }
@@ -233,16 +220,13 @@ hr {
   max-width: 80%;
 }
 .social {
-  margin: 8px 4px;
-  height: 32px;
+  margin: 0.5em;
+  height: 24px;
 }
 .footerright, .footerright h3 {
   text-align: right;
 }
 @media (max-width: 768px) {
-  .logo img {
-    max-width: 95%;
-  }
   .footerright, .footerright h3 {
     text-align: left;
   }
