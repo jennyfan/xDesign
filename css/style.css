@@ -37,11 +37,11 @@ body {
   margin: 0 auto;
 }
 header {
-  margin: 8rem auto 6rem;
+  margin: 8rem auto 4rem;
 }
 section {
   margin: 3rem auto;
-  padding-top: 6rem;
+  padding: 3rem auto;
   min-height: 80vh;
   opacity: 0;
 }
@@ -77,7 +77,7 @@ h1,h2,h3,h4 {
 }
 h1 {
     font-family: 'Inconsolata', 'Roboto', monospace;
-    font-size: 48px;
+    font-size: 4rem;
     line-height: 48px;
     font-weight: 700;
     margin-top: 24px;
@@ -85,16 +85,24 @@ h1 {
 }
 h2 {
     font-family: 'Inconsolata', 'Roboto', monospace;
-    font-size: 24px;
-    line-height: 32px;
-    margin: 1rem auto;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    margin: 1rem auto 3rem;
     font-weight: 700;
 }
 h3 {
     font-family: 'Inconsolata', 'Roboto', monospace;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     line-height: 1.5rem;
     margin: 0.75rem auto;
+    /* text-transform: uppercase; */
+    font-weight: 700;
+}
+h4 {
+    font-family: 'Inconsolata', 'Roboto', monospace;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin: 0.5rem auto;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -107,8 +115,8 @@ ul, li {
 }
 p, li {
     font-weight: 100;
-    font-size: 1.25rem;
-    line-height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
     text-align: left;
 }
 
@@ -128,6 +136,15 @@ input {
     float: left;
     text-align: left;
     margin-top: 8px;
+}
+
+.card {
+  background-color: #fff;
+  transition: 1s ease;
+}
+.card:hover {
+  background-color: #efefef;
+  transition: 1s ease;
 }
 
 /** Navbar Styles **/
@@ -216,9 +233,6 @@ hr {
   flex-direction: column;
   align-items: center;
 }
-.logo img {
-  max-width: 80%;
-}
 .social {
   margin: 0.5em;
   height: 24px;
@@ -230,21 +244,4 @@ hr {
   .footerright, .footerright h3 {
     text-align: left;
   }
-}
-
-/*** Tables ***/
-.tr {
-  border-top: 1px solid #e9ecef;
-  vertical-align: top;
-  padding: 0.75rem 0.75rem 1rem 0.75rem;
-}
-.tr:hover {
-  background-color: #FFFFFF;
-}
-.tr div {
-  padding: 0;
-}
-.tr .td {
-  width: 100%;
-  margin: 0;
 }
