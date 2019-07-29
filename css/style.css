@@ -42,7 +42,7 @@ header {
 section {
   margin: 3rem auto;
   padding: 3rem auto;
-  min-height: 80vh;
+  min-height: 70vh;
   opacity: 0;
 }
 
@@ -67,7 +67,7 @@ footer {
 
 /* TEXT STYLES */
 body {
-  font-family: 'Inconsolata', 'Roboto', Tahoma, Arial, sans-serif;
+  font-family: 'Roboto', Tahoma, Arial, sans-serif;
   color: #242424;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -116,7 +116,7 @@ ul, li {
 p, li {
     font-weight: 100;
     font-size: 1rem;
-    line-height: 1.25rem;
+    line-height: 1.4rem;
     text-align: left;
 }
 
