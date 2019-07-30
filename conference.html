@@ -15,41 +15,34 @@
 
 <body data-spy="scroll" data-target="#navbar" data-offset="0">
 
-<div class="wrapper">
-
 <nav class="navbar navbar-expand-sm fixed-top" id="navbar">
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+	<div class="logo">
+			<a href="index.html">HarvardxDesign</a>
+		</div>
 
-  <div class="collapse navbar-collapse" id="navbarMenu">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarMenu">
 	<ul class="nav-pills navbar-nav ml-auto">
-			<li class="nav-item"><a href="index.html" class="nav-link">About Us</a></li>
+			<!-- <li class="nav-item"><a href="index.html" class="nav-link">About</a></li> -->
 			<li class="nav-item"><a href="conference.html" class="nav-link">Conference</a></li>
 			<li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
 			<li class="nav-item"><a href="sponsorship.html" class="nav-link">Sponsorship</a></li>
 			<li class="nav-item"><a href="join.html" class="nav-link">Join</a></li>
-		</ul>
-
-	<!-- <ul class="nav-pills navbar-nav ml-auto">
-		<li class="nav-item"><a href="#about" class="nav-link" onclick="loadPage('about')">About Us</a></li>
-		<li class="nav-item"><a href="#conference" class="nav-link" onclick="loadPage('conference')">Conference</a></li>
-		<li class="nav-item"><a href="#events" class="nav-link"  onclick="loadPage('events')">Events</a></li>
-		<li class="nav-item"><a href="#sponsorship" class="nav-link" onclick="loadPage('sponsorship')">Sponsorship</a></li>
-		<li class="nav-item"><a href="#join" class="nav-link" onclick="loadPage('join')">Join</a></li>
-	</ul> -->
+	</ul>
 	</div>
 </nav>
+	
 
+<div class="wrapper">
+
+<header>
+		<h2>Conferences</h2>
+	</header>
 
 <section id="content" class="container-fluid">
-	<!-- Content in this div (#content) is over-written by the loadPage() function in main.js -->
-	
-	<header>
-	<h1>xDesign Conferences</h1>
-</header>
-
-
 	<p>The xD conference is a collaborative event between HBS and the GSD with a constantly evolving structure, experience, theme, and speakers coming from industry, academic institutions, governments, and more. Each year, we learn from the last and iterate with an ambition to make the conference provocative, unique, and fun!</p>
 
 	<div class="card-deck">
@@ -125,23 +118,24 @@
 </section>
 
 
-<footer id="footer">
-	<div class="row">
-		<div class="col-xs-12 col-sm-6 footerleft">
-			<h3>&copy; HarvardxDesign 2019</h3>
+<footer id="footer" class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 footerleft">
+				<p>&copy; <a href="http://harvardxdesign.org">Harvard x Design</a> 2019</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 footerright">
+				<a href="https://www.facebook.com/events/1999803786899476/?notif_t=plan_user_associated&notif_id=1513801025671346"><img src="img/fb.png" border="0" alt="Facebook" class="social" /></a>
+	
+				<a href="http://twitter.com/harvardxdesign" target="_blank"><img src="img/twitter.png" border="0" alt="Twitter" class="social" /></a>
+	
+				<a href="http://instagram.com/harvardxdesign" target="_blank"><img src="img/ig.png" border="0" alt="Instagram" class="social" /></a>
+	
+			</div>
 		</div>
-		<div class="col-xs-12 col-sm-6 footerright">
-			<a href="https://www.facebook.com/events/1999803786899476/?notif_t=plan_user_associated&notif_id=1513801025671346"><img src="img/fb.png" border="0" alt="Facebook" class="social" /></a>
-
-			<a href="http://twitter.com/harvardxdesign" target="_blank"><img src="img/twitter.png" border="0" alt="Twitter" class="social" /></a>
-
-			<a href="http://instagram.com/harvardxdesign" target="_blank"><img src="img/ig.png" border="0" alt="Instagram" class="social" /></a>
-
-		</div>
+	</footer>
+	
 	</div>
-</footer>
-
-</div>
+	
 
 
 <!-- JS Libraries -->
