@@ -13,14 +13,24 @@ clay: #B5412F
 
 @font-face {
   font-family: 'Noto Serif';
-  src: url('./fonts/NotoSerif-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('./fonts/NotoSerif-Regular.ttf')  format('truetype');
   font-weight: 400;
 }
 @font-face {
   font-family: 'Noto Serif';
-  src: url('./fonts/NotoSerif-RegularItalic.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('./fonts/NotoSerif-RegularItalic.ttf')  format('truetype');
   font-weight: 400;
   font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../fonts/Inconsolata-Regular.ttf')  format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../fonts/Inconsolata-Bold.ttf')  format('truetype'); 
 }
 
 @font-face {
@@ -34,16 +44,7 @@ clay: #B5412F
   font-weight: 700;
 }
 
-@font-face {
-  font-family: 'Inconsolata';
-  src: url('../fonts/Inconsolata-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
-  font-weight: 400;
-}
-@font-face {
-  font-family: 'Inconsolata';
-  src: url('../fonts/Inconsolata-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
-  font-weight: 700;
-}
+
 
 /* SECTION STYLING */
 body {
