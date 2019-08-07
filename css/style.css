@@ -13,12 +13,12 @@ clay: #B5412F
 
 @font-face {
   font-family: 'Noto Serif';
-  src: url('./fonts/NotoSerif-Regular.ttf')  format('truetype');
+  src: url('../fonts/NotoSerif-Regular.ttf')  format('truetype');
   font-weight: 400;
 }
 @font-face {
   font-family: 'Noto Serif';
-  src: url('./fonts/NotoSerif-RegularItalic.ttf')  format('truetype');
+  src: url('../fonts/NotoSerif-RegularItalic.ttf')  format('truetype');
   font-weight: 400;
   font-style: italic;
 }

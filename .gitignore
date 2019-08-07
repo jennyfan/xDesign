@@ -1,4 +1,7 @@
-flocking.html
 .DS_Store
-speakers_orig/
-rename_photos.py
+conferences/.DS_Store
+events/.DS_Store
+fonts/.DS_Store
+img/.DS_Store
+js/.DS_Store
+photos/.DS_Store
