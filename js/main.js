@@ -8,6 +8,35 @@
 //   });
 // }
 
+// activate Slick
+$(document).ready(function(){
+	$('.slideshow').slick({
+	  autoplay: true,
+	  autoplaySpeed: 3000,
+	  arrows: true,
+	  adaptiveHeight: true,
+	  dots: false,
+	  infinite: true,
+	  pauseOnFocus: true,
+	  swipeToSlide: true,
+	  draggable: true,
+	  // fade: true,
+	  slidesToShow: 2,
+	  slidesToScroll: 1,
+	  responsive: [
+		  {
+		  breakpoint: 1024,
+		  settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			infinite: true,
+			dots: true
+		  }
+		}
+	  ]
+	});
+  });
+
 $(window).on("load",function() {
    // Fade in on scroll
   $(window).scroll(function() {
