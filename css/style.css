@@ -95,14 +95,14 @@ h3 {
     font-family: var(--font-family-sans);
     font-size: 1.5rem;
     line-height: 1.5rem;
-    margin: 1rem auto;
+    margin: 2rem auto 1rem;
     font-weight: 700;
 }
 h4 {
     font-family: var(--font-family-mono);
     font-size: 1rem;
     line-height: 1.2rem;
-    margin: 0.5rem auto 1rem;
+    margin: 2rem 0 1rem;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -211,10 +211,8 @@ section {
 section img {
   max-width: 100%;
 }
-#content {
-  text-align: center;
-}
 .card {
+  text-align: center;
   transition: 1s ease;
 }
 .card:hover {
@@ -290,7 +288,7 @@ section img {
   font-size: 1.6rem;
 }
 .logo a {
-  color: #1D5BB9;
+  color: #000;
   text-decoration: none;
 }
 
